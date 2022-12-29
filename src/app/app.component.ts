@@ -10,6 +10,6 @@ export class AppComponent  {
   constructor(){}
   counter =0;
   increment(){
-    this.counter++
+    this.counter = this.counter + 2
   }
 }
