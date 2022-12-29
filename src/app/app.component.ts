@@ -8,8 +8,8 @@ import { Component, VERSION } from '@angular/core';
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
   constructor(){}
-  counter =0;
-  increment(){
-    this.counter = this.counter + 2
+  phrase  ="";
+  update(){
+    this.phrase += " Going"
   }
 }
